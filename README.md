@@ -1,9 +1,16 @@
 # PrefRepair
 Tool to recreate or restore entries in the DesktopServer preferences file
 
-Place file in DesktopServer folder ( Mac - /applications/XAMPP - Windows - c:\xampplite )
-Open Terminal and go to the DesktopServer folder/directory
-Type php c:\xampplite\prefrepair.php -h
+Place file in DesktopServer folder 
+
+Mac - Applications > XAMPP 
+Open Terminal and go to Applications > XAMPP
+Type: prefrepair.php
+
+Windows - c:\xampplite
+Open Terminal and go to C:\xampplite\ds-plugins\ds-cli\platform\win32
+Type: boot
+Type: c:\xampplite\prefrepair.php
 
 switches:
 -b ( By default the script will set it to Safari, but you can change this. )
