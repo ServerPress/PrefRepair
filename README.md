@@ -10,7 +10,7 @@ Type: prefrepair.php
 Windows - c:\xampplite<br>
 Open Terminal and go to C:\xampplite\ds-plugins\ds-cli\platform\win32<br>
 Type: boot<br>
-Type: c:\xampplite\prefrepair.php
+Type: php c:\xampplite\prefrepair.php
 
 switches:<br>
 -b ( By default the script will set it to Safari, but you can change this. )<br>
